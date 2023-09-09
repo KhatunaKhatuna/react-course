@@ -1,0 +1,27 @@
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  padding: 0 50px;
+  font-size: 20px;
+}
