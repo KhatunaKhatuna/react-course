@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./Datacounter.css";
-export default function Datacounter() {
+import "./Datecounter.css";
+export default function Datecounter() {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
