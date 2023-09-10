@@ -4,6 +4,7 @@ import Books from "./components/Books";
 import Challenge1 from "./components/Challenge1-2";
 import Steps from "./components/Steps";
 import Datecounter from "./components/Datecounter";
+import Fleshcards from "./components/Fleshcards";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
       <Steps />
       <h2>Data Counter</h2>
       <Datecounter />
+      <h2>Fleshcards</h2>
+      <Fleshcards />
     </div>
   );
 }
