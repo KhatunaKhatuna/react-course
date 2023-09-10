@@ -31,7 +31,7 @@ export default function Datecounter() {
           >
             -
           </button>
-          <p>Step: {step}</p>
+          <p>{step}</p>
           <button
             onClick={() => setStep((stepincrease) => stepincrease + 1)}
             className="btn"

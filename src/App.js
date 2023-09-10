@@ -5,6 +5,7 @@ import Challenge1 from "./components/Challenge1-2";
 import Steps from "./components/Steps";
 import Datecounter from "./components/Datecounter";
 import Fleshcards from "./components/Fleshcards";
+import DatecounterV2 from "./components/DatecounterV2";
 
 export default function App() {
   return (
@@ -14,8 +15,10 @@ export default function App() {
       {/* <Books /> */}
       <h2>Steps</h2>
       <Steps />
-      <h2>Data Counter</h2>
+      <h2>Date Counter</h2>
       <Datecounter />
+      <h2>Date Counter Version 2</h2>
+      <DatecounterV2 />
       <h2>Fleshcards</h2>
       <Fleshcards />
     </div>
